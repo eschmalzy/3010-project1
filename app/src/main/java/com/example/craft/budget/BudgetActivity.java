@@ -104,6 +104,7 @@ public class BudgetActivity extends AppCompatActivity {
                 String s = b.getBudget();
                 mBudgetListStrings.add(s);
                 mBudgetAdapter.notifyDataSetChanged();
+                Toast.makeText(BudgetActivity.this, R.string.added, Toast.LENGTH_SHORT).show();
 
         }
     }
